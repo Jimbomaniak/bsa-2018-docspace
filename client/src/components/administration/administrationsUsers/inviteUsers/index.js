@@ -1,5 +1,5 @@
 import React from 'react'
-import Input from 'src/components/common/input'
+import Input from 'components/common/input'
 import PropTypes from 'prop-types'
 
 const InviteUsers = (props) => (

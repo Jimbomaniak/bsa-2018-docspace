@@ -6,7 +6,7 @@ import { Redirect, withRouter } from 'react-router-dom'
 import signupRequest from './logic/signupActions'
 import Input from '../../common/input'
 import Errors from '../../common/error'
-import logoInCircle from 'src/resources/icons/logoAnimalwhite.png'
+import logoInCircle from 'resources/icons/logoAnimalwhite.png'
 import { translate } from 'react-i18next'
 
 import './signup.css'

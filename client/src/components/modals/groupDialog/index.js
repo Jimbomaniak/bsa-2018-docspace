@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import Modal from 'src/components/common/modal'
-import Input from 'src/components/common/input'
+import Modal from 'components/common/modal'
+import Input from 'components/common/input'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { createGroupRequest, updateGroupRequest } from '../../group/logic/groupsAction'

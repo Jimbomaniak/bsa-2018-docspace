@@ -1,7 +1,7 @@
 import { takeEvery, put } from 'redux-saga/effects'
 import * as actionTypes from './groupsActionsTypes'
 import * as actions from './groupsAction'
-import {groupService} from 'src/services/groupService'
+import {groupService} from 'services/groupService'
 
 function * createGroup (action) {
   try {

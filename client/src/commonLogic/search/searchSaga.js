@@ -1,7 +1,7 @@
 import { takeEvery, put } from 'redux-saga/effects'
 import * as actionTypes from './searchActionTypes'
 import * as actions from './searchActions'
-import SearchService from 'src/services/searchService'
+import SearchService from 'services/searchService'
 
 function * search (action) {
   try {

@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Button from 'src/components/dashboard/sidebar/button'
-import {lightColors} from 'src/components/iconColorPicker/defaultColors'
+import Button from 'components/dashboard/sidebar/button'
+import {lightColors} from 'components/iconColorPicker/defaultColors'
 import './spaceSidebarButtons.css'
 
 const SpaceSidebarButtons = (props) => {

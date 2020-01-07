@@ -1,8 +1,8 @@
 import { takeEvery, put } from 'redux-saga/effects'
 import * as actionTypes from './likesActionTypes'
 import * as actions from './likesAction'
-import pageService from 'src/services/pageService'
-import {commentService} from 'src/services/commentService'
+import pageService from 'services/pageService'
+import {commentService} from 'services/commentService'
 
 function * putLikeOnPage (action) {
   const {user, page} = action.payload

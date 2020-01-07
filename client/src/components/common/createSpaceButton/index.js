@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import CreateSpaceModal from 'src/components/modals/createSpaceModal'
+import CreateSpaceModal from 'components/modals/createSpaceModal'
 import { translate } from 'react-i18next'
 import PropTypes from 'prop-types'
 import './createSpaceButton.css'

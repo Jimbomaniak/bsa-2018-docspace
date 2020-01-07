@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './inputDashboard.css'
 import PropTypes from 'prop-types'
-import {getT} from 'src/config/i18n'
+import {getT} from 'config/i18n'
 const t = getT()
 class Input extends Component {
   render () {

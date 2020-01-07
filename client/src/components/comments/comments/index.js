@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { AddComment } from 'src/components/comments/addComment'
+import { AddComment } from 'components/comments/addComment'
 import { translate } from 'react-i18next'
 import PropTypes from 'prop-types'
 

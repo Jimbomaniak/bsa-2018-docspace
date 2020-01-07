@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import './spacesContent.css'
 import { NavLink } from 'react-router-dom'
 import { MoonLoader } from 'react-spinners'
-import {lightColors} from 'src/components/iconColorPicker/defaultColors'
+import {lightColors} from 'components/iconColorPicker/defaultColors'
 
 class SpacesContent extends Component {
   constructor (props) {

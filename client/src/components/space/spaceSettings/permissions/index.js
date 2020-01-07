@@ -4,11 +4,11 @@ import PermissionsTable from './permissionsTable'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { translate } from 'react-i18next'
-import { currentSpacePermissions, isFetchingForPermissions } from 'src/components/space/spaceSettings/permissions/logic/permissionsReducer'
+import { currentSpacePermissions, isFetchingForPermissions } from 'components/space/spaceSettings/permissions/logic/permissionsReducer'
 import { EntityNamesForPermissionsSettingsArray } from './logic/constants'
 import AddPermissionsForm from './addPermissionsForm'
 import { MoonLoader } from 'react-spinners'
-import { searchRequest } from 'src/commonLogic/search/searchActions'
+import { searchRequest } from 'commonLogic/search/searchActions'
 import {
   getSpacePermissionsRequest, updateSpacePermissionsRequest,
   addUserPermissionsRequest, addGroupPermissionsRequest

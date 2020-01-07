@@ -1,8 +1,8 @@
-import * as actionTypesUser from 'src/components/containers/user/logic/userActionTypes'
-import * as actionTypesSpace from 'src/components/space/spaceContainer/logic/spaceActionTypes'
-import * as actionTypesPage from 'src/components/page/logic/pageActionTypes'
-import * as actionTypesGroup from 'src/components/group/logic/groupsActionsTypes'
-import * as actionTypesError from 'src/components/common/app/logic/errorActionTypes'
+import * as actionTypesUser from 'components/containers/user/logic/userActionTypes'
+import * as actionTypesSpace from 'components/space/spaceContainer/logic/spaceActionTypes'
+import * as actionTypesPage from 'components/page/logic/pageActionTypes'
+import * as actionTypesGroup from 'components/group/logic/groupsActionsTypes'
+import * as actionTypesError from 'components/common/app/logic/errorActionTypes'
 const initialState = {
   status: 0,
   message: ''

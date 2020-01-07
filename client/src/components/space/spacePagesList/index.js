@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { NavLink, withRouter } from 'react-router-dom'
 import { translate } from 'react-i18next'
-import { getPageByIdRequest } from 'src/components/page/logic/pageActions'
+import { getPageByIdRequest } from 'components/page/logic/pageActions'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 

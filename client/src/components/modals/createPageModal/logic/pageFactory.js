@@ -1,7 +1,7 @@
 import * as templatesNames from './constants/templatesNames'
-import { createPageRequest, createBlogPageRequest } from 'src/components/page/logic/pageActions'
+import { createPageRequest, createBlogPageRequest } from 'components/page/logic/pageActions'
 
-import { store } from 'src/commonLogic/store'
+import { store } from 'commonLogic/store'
 
 const pageCreatorsByTemplatesNames = {
   [templatesNames.EMPTY_PAGE]: (space, userId) => {

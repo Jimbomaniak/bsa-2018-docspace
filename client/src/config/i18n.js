@@ -1,6 +1,6 @@
 import i18n from 'i18next'
-import en from 'src/locales/en'
-import uk from 'src/locales/uk'
+import en from 'locales/en'
+import uk from 'locales/uk'
 
 export default i18n.init({
   resources: {

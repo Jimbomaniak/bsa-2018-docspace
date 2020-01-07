@@ -3,14 +3,14 @@ import { NavLink, withRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
 import './minSideBar.css'
 import PropTypes from 'prop-types'
-import DropdownMenu from 'src/components/common/dropdownMenu'
-import CreatePageModal from 'src/components/modals/createPageModal'
+import DropdownMenu from 'components/common/dropdownMenu'
+import CreatePageModal from 'components/modals/createPageModal'
 import { translate } from 'react-i18next'
-import SearchModal from 'src/components/modals/searchModal'
-import OpenNotificationsBtn from 'src/components/openNotificationsBtn'
+import SearchModal from 'components/modals/searchModal'
+import OpenNotificationsBtn from 'components/openNotificationsBtn'
 
-import whiteLogo from 'src/assets/logo-penguin-docspace.png'
-import grayLogo from 'src/assets/logo-penguin-docspace-dark.png'
+import whiteLogo from 'assets/logo-penguin-docspace.png'
+import grayLogo from 'assets/logo-penguin-docspace-dark.png'
 
 class MinSidebar extends PureComponent {
   constructor (props) {

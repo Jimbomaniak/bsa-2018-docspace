@@ -4,9 +4,9 @@ import { bindActionCreators } from 'redux'
 import PropTypes from 'prop-types'
 import './work.css'
 import RecentlyWorkedOn from './RecentlyWorkedOn'
-import * as actions from 'src/components/containers/user/logic/userActions'
+import * as actions from 'components/containers/user/logic/userActions'
 import Input from '../../input'
-import {getT} from 'src/config/i18n'
+import {getT} from 'config/i18n'
 const t = getT()
 
 class Work extends Component {

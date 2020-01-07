@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './searchModal.css'
-import {searchRequest, cleanSearchResults, advancedSearchRequest} from 'src/commonLogic/search/searchActions'
+import {searchRequest, cleanSearchResults, advancedSearchRequest} from 'commonLogic/search/searchActions'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'

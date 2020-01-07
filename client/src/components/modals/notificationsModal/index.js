@@ -7,7 +7,7 @@ import PropTypes from 'prop-types'
 import { clearNotificationsForUser } from './logic/actions'
 import { Link, withRouter } from 'react-router-dom'
 import { translate } from 'react-i18next'
-import formatDate from 'src/helpers/formatDate'
+import formatDate from 'helpers/formatDate'
 
 class notificationsModal extends Component {
   constructor (props) {

@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 import { withRouter, NavLink } from 'react-router-dom'
 import { translate } from 'react-i18next'
 
-import SpaceHeaderButtons from 'src/components/space/spaceHeaderButtons'
-import { spaceById } from 'src/components/space/spaceContainer/logic/spaceReducer'
+import SpaceHeaderButtons from 'components/space/spaceHeaderButtons'
+import { spaceById } from 'components/space/spaceContainer/logic/spaceReducer'
 
 import './spaceHeader.css'
 

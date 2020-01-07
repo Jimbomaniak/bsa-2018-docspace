@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import Input from '../../common/input'
-import logoInCircle from 'src/resources/icons/logoAnimalwhite.png'
+import logoInCircle from 'resources/icons/logoAnimalwhite.png'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'

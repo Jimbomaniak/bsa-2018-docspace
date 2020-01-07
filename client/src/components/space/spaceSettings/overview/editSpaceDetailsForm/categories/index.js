@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { translate } from 'react-i18next'
 import PropTypes from 'prop-types'
-import Input from 'src/components/common/input'
+import Input from 'components/common/input'
 
 import './categories.css'
 

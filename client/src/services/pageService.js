@@ -1,7 +1,7 @@
 import html2pdf from 'html2pdf.js'
 import htmlDocx from 'html-docx-js/dist/html-docx'
 import fileSaver from 'file-saver'
-import { callWebApi } from 'src/helpers/requestHelper'
+import { callWebApi } from 'helpers/requestHelper'
 class PageService {
   getPages = () => {
     const args = { endpoint: '/api/pages', method: 'GET' }

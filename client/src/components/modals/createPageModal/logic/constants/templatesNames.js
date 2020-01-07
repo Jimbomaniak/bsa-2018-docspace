@@ -1,4 +1,4 @@
-// import {getT} from 'src/config/i18n'
+// import {getT} from 'config/i18n'
 
 // const t = getT()
 

@@ -1,11 +1,11 @@
 import React, {Component, Fragment} from 'react'
-import PinguinImg from 'src/resources/icons/error404_3.png'
+import PinguinImg from 'resources/icons/error404_3.png'
 import { NavLink, withRouter } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { translate } from 'react-i18next'
 import { bindActionCreators } from 'redux'
-import { redirectToHelpfulLink } from 'src/components/common/app/logic/errorActions'
+import { redirectToHelpfulLink } from 'components/common/app/logic/errorActions'
 
 import './page404.css'
 class Page404 extends Component {

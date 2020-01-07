@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import { Redirect, withRouter } from 'react-router-dom'
 import Input from '../../common/input'
-import logoInCircle from 'src/resources/icons/logoAnimalwhite.png'
+import logoInCircle from 'resources/icons/logoAnimalwhite.png'
 import resetRequest from './logic/resetActions'
 import PropTypes from 'prop-types'
 import { bindActionCreators } from 'redux'

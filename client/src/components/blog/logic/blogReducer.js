@@ -1,5 +1,5 @@
 import * as actionTypes from './blogActionTypes'
-import { DELETE_BLOG_PAGE_SUCCESS, UPDATE_BLOG_PAGE_SUCCESS } from 'src/components/page/logic/pageActionTypes'
+import { DELETE_BLOG_PAGE_SUCCESS, UPDATE_BLOG_PAGE_SUCCESS } from 'components/page/logic/pageActionTypes'
 
 const initialState = {}
 

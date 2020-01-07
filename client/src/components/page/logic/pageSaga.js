@@ -1,12 +1,12 @@
 import { takeEvery, put, select } from 'redux-saga/effects'
 import * as actions from './pageActions'
 import * as actionTypes from './pageActionTypes'
-import PageService from 'src/services/pageService'
+import PageService from 'services/pageService'
 import { normalize } from 'normalizr'
 import { pagesArray } from './pagesNormalizerSchema'
 import { push } from 'connected-react-router'
 import * as commentsActions from '../commentsLogic/commentsActions'
-import * as spaceActions from 'src/components/space/spaceContainer/logic/spaceActions'
+import * as spaceActions from 'components/space/spaceContainer/logic/spaceActions'
 
 function * getPages (action) {
   try {

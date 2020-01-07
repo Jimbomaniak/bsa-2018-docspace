@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
-import Group from 'src/components/group'
+import Group from 'components/group'
 import AdministrationUsers from './administrationsUsers'
 import { Route, NavLink, Redirect, withRouter } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { translate } from 'react-i18next'
-import { sendInvitation } from 'src/components/modals/groupDialog/logic/matchingUserActions'
+import { sendInvitation } from 'components/modals/groupDialog/logic/matchingUserActions'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 

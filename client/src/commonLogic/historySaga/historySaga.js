@@ -1,5 +1,5 @@
 import { takeEvery, call, put } from 'redux-saga/effects'
-import HistoryService from 'src/services/historyService'
+import HistoryService from 'services/historyService'
 import * as actionTypes from './historyActionTypes'
 import * as allUserActionTypes from './allUserActionTypes'
 

@@ -1,5 +1,5 @@
 import { takeLatest, call, put } from 'redux-saga/effects'
-import { resetService } from 'src/services/resetService'
+import { resetService } from 'services/resetService'
 import * as actionTypes from './setNewPasswordActionTypes'
 
 function * setNewPasswordFlow (action) {

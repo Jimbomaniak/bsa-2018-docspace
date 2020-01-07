@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
-import { loginService } from 'src/services/loginService.js'
+import { loginService } from 'services/loginService.js'
 import './dropdownMenu.css'
 
 export default class DropdownMenu extends Component {

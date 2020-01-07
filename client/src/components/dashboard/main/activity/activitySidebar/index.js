@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './avtivitySidebar.css'
 import welcome from './welcome.png'
-import CreateSpaceButton from 'src/components/common/createSpaceButton'
+import CreateSpaceButton from 'components/common/createSpaceButton'
 import { translate } from 'react-i18next'
 import PropTypes from 'prop-types'
 

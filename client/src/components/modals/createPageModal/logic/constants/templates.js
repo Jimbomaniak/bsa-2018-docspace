@@ -1,8 +1,8 @@
 import * as names from './templatesNames'
 // import getTemplatesName from './templatesNames'
-import emptyPageIcon from 'src/resources/icons/empty-folder-black.png'
-import blogPageIcon from 'src/resources/icons/blog3.png'
-import {getT} from 'src/config/i18n'
+import emptyPageIcon from 'resources/icons/empty-folder-black.png'
+import blogPageIcon from 'resources/icons/blog3.png'
+import {getT} from 'config/i18n'
 
 const t = getT()
 export function getTemplates () {

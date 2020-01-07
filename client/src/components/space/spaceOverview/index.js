@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { getPageByIdRequest, exportPageToPdf, exportPageToWord, createPageRequest, sendDocFileRequest } from 'src/components/page/logic/pageActions'
+import { getPageByIdRequest, exportPageToPdf, exportPageToWord, createPageRequest, sendDocFileRequest } from 'components/page/logic/pageActions'
 import SpaceOverviewHeader from './spaceOverviewHeader'
 import { translate } from 'react-i18next'
-import { openWarningModal, closeWarningModal } from 'src/components/modals/warningModal/logic/warningModalActions'
-import { deleteSpaceRequest } from 'src/components/space/spaceContainer/logic/spaceActions'
-import PageContent from 'src/components/common/pageContent'
+import { openWarningModal, closeWarningModal } from 'components/modals/warningModal/logic/warningModalActions'
+import { deleteSpaceRequest } from 'components/space/spaceContainer/logic/spaceActions'
+import PageContent from 'components/common/pageContent'
 class SpaceOverview extends Component {
   handleEditBtnClick = () => {
     const { space, history } = this.props

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import ContentListItem from './contentListItem'
 import { MoonLoader } from 'react-spinners'
 
-import pinguin from 'src/resources/search_pinguin.png'
+import pinguin from 'resources/search_pinguin.png'
 
 import './matchedContent.css'
 

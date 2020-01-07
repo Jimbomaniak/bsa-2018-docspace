@@ -1,7 +1,7 @@
 import { takeEvery, put } from 'redux-saga/effects'
 import * as actions from './blogActions'
 import * as actionTypes from './blogActionTypes'
-import BlogService from 'src/services/blogService'
+import BlogService from 'services/blogService'
 
 function * getBlog (action) {
   try {

@@ -1,4 +1,4 @@
-import {RecentWorks} from 'src/constants/recentWorks'
+import {RecentWorks} from 'constants/recentWorks'
 
 export function timeDifference (current, previous) {
   const msPerMinute = 60 * 1000

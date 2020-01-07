@@ -1,6 +1,6 @@
 import * as actionTypes from './verificationActionTypes'
-import { SIGNUP_SUCCESS } from 'src/components/auth/signup/logic/signupActionTypes'
-import { CLEAR_NOTIFICATIONS_SUCCESS, NOTIFICATION } from 'src/components/modals/notificationsModal/logic/actionsTypes'
+import { SIGNUP_SUCCESS } from 'components/auth/signup/logic/signupActionTypes'
+import { CLEAR_NOTIFICATIONS_SUCCESS, NOTIFICATION } from 'components/modals/notificationsModal/logic/actionsTypes'
 
 const initialState = {
   requesting: true,

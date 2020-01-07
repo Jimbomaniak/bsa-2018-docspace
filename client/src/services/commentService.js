@@ -1,4 +1,4 @@
-import { callWebApi } from 'src/helpers/requestHelper'
+import { callWebApi } from 'helpers/requestHelper'
 
 class CommentService {
     getComments = (commentsId) => {

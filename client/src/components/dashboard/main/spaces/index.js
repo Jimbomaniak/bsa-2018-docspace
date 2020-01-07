@@ -1,6 +1,6 @@
 import React from 'react'
 import DashboardSpacesBody from '../../spacesBody'
-import CreateSpaceButton from 'src/components/common/createSpaceButton'
+import CreateSpaceButton from 'components/common/createSpaceButton'
 import { translate } from 'react-i18next'
 import PropTypes from 'prop-types'
 

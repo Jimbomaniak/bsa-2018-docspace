@@ -2,7 +2,7 @@ import { call, put, takeLatest } from 'redux-saga/effects'
 import * as actionTypes from './signupActionTypes'
 import { push } from 'connected-react-router'
 import { signupService } from '../../../../services/signupService'
-import { saveUserInSession } from 'src/components/auth/verification/logic/verificationActions'
+import { saveUserInSession } from 'components/auth/verification/logic/verificationActions'
 
 function * signupFlow (action) {
   try {

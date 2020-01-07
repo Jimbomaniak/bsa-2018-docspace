@@ -1,5 +1,5 @@
-import actionsToShareArr from 'src/commonLogic/actionsToShareWithOtherClients'
-import {VERIFICATION_SUCCESS} from 'src/components/auth/verification/logic/verificationActionTypes'
+import actionsToShareArr from 'commonLogic/actionsToShareWithOtherClients'
+import {VERIFICATION_SUCCESS} from 'components/auth/verification/logic/verificationActionTypes'
 import { fork, take, call, put, takeEvery, takeLatest, select } from 'redux-saga/effects'
 import { eventChannel } from 'redux-saga'
 import connectSocket from './connectSocket'

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import NotificationsModal from 'src/components/modals/notificationsModal'
+import NotificationsModal from 'components/modals/notificationsModal'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import './openNotificationsBtn.css'

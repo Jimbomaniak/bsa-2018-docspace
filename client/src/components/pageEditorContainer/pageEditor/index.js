@@ -8,7 +8,7 @@ import './pageEditor.css'
 import { translate } from 'react-i18next'
 
 // dummy avatar for user
-import logo from 'src/resources/icons/user-comment.png'
+import logo from 'resources/icons/user-comment.png'
 
 class PageEditor extends Component {
   constructor (props) {

@@ -1,7 +1,7 @@
 import { takeEvery, put } from 'redux-saga/effects'
 import * as actionTypes from './matchingUserActionsType'
 import * as actions from './matchingUserActions'
-import {groupService} from 'src/services/groupService'
+import {groupService} from 'services/groupService'
 
 function * getAllMatchingUser (action) {
   try {

@@ -1,7 +1,7 @@
 import { takeEvery, put, select } from 'redux-saga/effects'
 import * as actions from './permissionsActions'
 import * as actionsTypes from './permissionsActionsTypes'
-import PermissionsService from 'src/services/permissionsService'
+import PermissionsService from 'services/permissionsService'
 import _ from 'lodash'
 
 function * getSpacePermissions (action) {

@@ -3,7 +3,7 @@ import * as actionTypes from './pageActionTypes'
 import * as likesActionTypes from '../likesLogic/likesActionTypes'
 import * as commentsActionTypes from '../commentsLogic/commentsActionTypes'
 import * as watcherTypes from '../watcherLogic/watcherActionType'
-import getPageIdFromRouterLocation from 'src/helpers/pages/getPageIdFromRouterLocation'
+import getPageIdFromRouterLocation from 'helpers/pages/getPageIdFromRouterLocation'
 
 const initialState = {
   all: [],

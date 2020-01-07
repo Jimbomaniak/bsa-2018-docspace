@@ -1,9 +1,9 @@
 import React from 'react'
-import workHelper from 'src/components/recentWorkListItem/helperRecentWork'
+import workHelper from 'components/recentWorkListItem/helperRecentWork'
 import PropTypes from 'prop-types'
 import WorkCard from '../workCard'
 import { translate } from 'react-i18next'
-import {RecentWorks} from 'src/constants/recentWorks'
+import {RecentWorks} from 'constants/recentWorks'
 import { MoonLoader } from 'react-spinners'
 
 import './RecentlyWorkedOn.css'

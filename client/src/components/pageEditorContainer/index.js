@@ -3,9 +3,9 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import PropTypes from 'prop-types'
 import PageEditor from './pageEditor'
-import { spaceById } from 'src/components/space/spaceContainer/logic/spaceReducer'
-import { updatePageRequest, getPageByIdRequest } from 'src/components/page/logic/pageActions'
-import { getSpaceRequest } from 'src/components/space/spaceContainer/logic/spaceActions'
+import { spaceById } from 'components/space/spaceContainer/logic/spaceReducer'
+import { updatePageRequest, getPageByIdRequest } from 'components/page/logic/pageActions'
+import { getSpaceRequest } from 'components/space/spaceContainer/logic/spaceActions'
 import joditEditorConfig from './joditConfig'
 
 // TODO: get user from state and pass to PageEditor
@@ -65,7 +65,7 @@ PageEditorContainer.propTypes = {
   location: PropTypes.object,
   page: PropTypes.shape({
     title: PropTypes.string,
-    content: PropTypes.sting,
+    content: PropTypes.string,
     spaceId: PropTypes.string
   }),
   space: PropTypes.shape({

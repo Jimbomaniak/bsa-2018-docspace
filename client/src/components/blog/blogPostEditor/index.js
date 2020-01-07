@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import PropTypes from 'prop-types'
-import PageEditor from 'src/components/pageEditorContainer/pageEditor'
-import { spaceById } from 'src/components/space/spaceContainer/logic/spaceReducer'
-import { updateBlogPageRequest, getPageByIdRequest } from 'src/components/page/logic/pageActions'
-import { getSpaceRequest } from 'src/components/space/spaceContainer/logic/spaceActions'
+import PageEditor from 'components/pageEditorContainer/pageEditor'
+import { spaceById } from 'components/space/spaceContainer/logic/spaceReducer'
+import { updateBlogPageRequest, getPageByIdRequest } from 'components/page/logic/pageActions'
+import { getSpaceRequest } from 'components/space/spaceContainer/logic/spaceActions'
 import joditEditorConfig from './joditConfig'
 
 class PageEditorContainer extends Component {
@@ -66,7 +66,7 @@ PageEditorContainer.propTypes = {
   match: PropTypes.object,
   page: PropTypes.shape({
     title: PropTypes.string,
-    content: PropTypes.sting,
+    content: PropTypes.string,
     spaceId: PropTypes.string
   }),
   space: PropTypes.shape({

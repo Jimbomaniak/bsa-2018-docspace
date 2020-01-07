@@ -5,8 +5,8 @@ import SpaceDetails from './spaceDetails'
 import EditSpaceDetailsForm from './editSpaceDetailsForm'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { deleteSpaceRequest } from 'src/components/space/spaceContainer/logic/spaceActions'
-import {getAlUsersRequest} from 'src/components/dashboard/peopleBody/logic/allUsersActions'
+import { deleteSpaceRequest } from 'components/space/spaceContainer/logic/spaceActions'
+import {getAlUsersRequest} from 'components/dashboard/peopleBody/logic/allUsersActions'
 
 import './spaceOverviewTab.css'
 

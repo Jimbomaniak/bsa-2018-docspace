@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
-import formatDate from 'src/helpers/formatDate'
+import formatDate from 'helpers/formatDate'
 import './contentListItem.css'
 
 const ContentListItem = ({icon, path, title, time, content, iconColor}) => {

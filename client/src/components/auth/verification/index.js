@@ -4,7 +4,7 @@ import { verificationRequest, saveUserInSession } from './logic/verificationActi
 import PropTypes from 'prop-types'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import SplashScreen from 'src/components/splashScreen'
+import SplashScreen from 'components/splashScreen'
 import './verification.css'
 
 export default (ComposedComponent) => {

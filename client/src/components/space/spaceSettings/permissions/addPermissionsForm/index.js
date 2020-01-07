@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { translate } from 'react-i18next'
-import { cleanSearchResults } from 'src/commonLogic/search/searchActions'
+import { cleanSearchResults } from 'commonLogic/search/searchActions'
 import { MoonLoader } from 'react-spinners'
 import _ from 'lodash'
 

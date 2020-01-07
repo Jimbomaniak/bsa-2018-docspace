@@ -1,7 +1,7 @@
 import { takeLatest, put, all, call } from 'redux-saga/effects'
 import * as actionTypes from './userActionTypes'
-import { userService } from 'src/services/userService'
-import HistoryService from 'src/services/historyService'
+import { userService } from 'services/userService'
+import HistoryService from 'services/historyService'
 
 function * getUser (action) {
   try {

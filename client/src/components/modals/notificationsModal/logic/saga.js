@@ -1,7 +1,7 @@
 import { takeEvery, put } from 'redux-saga/effects'
 import * as actionTypes from './actionsTypes'
 import * as actions from './actions'
-import NotificationsService from 'src/services/notificationsService'
+import NotificationsService from 'services/notificationsService'
 
 function * clearNotifications (action) {
   try {

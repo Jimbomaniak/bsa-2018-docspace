@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import CommentAvatar from 'src/components/comments/commentAvatar'
-import UserAvatarLink from 'src/resources/icons/user-comment.png'
-import Input from 'src/components/common/input'
+import CommentAvatar from 'components/comments/commentAvatar'
+import UserAvatarLink from 'resources/icons/user-comment.png'
+import Input from 'components/common/input'
 import PropTypes from 'prop-types'
 import { translate } from 'react-i18next'
 

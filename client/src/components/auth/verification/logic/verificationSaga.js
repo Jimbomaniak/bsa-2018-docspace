@@ -1,5 +1,5 @@
 import { take, fork, call, put } from 'redux-saga/effects'
-import { loginService } from 'src/services/loginService'
+import { loginService } from 'services/loginService'
 import * as actionTypes from './verificationActionTypes'
 
 function * verificationFlow () {

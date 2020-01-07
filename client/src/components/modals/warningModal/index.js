@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-import Modal from 'src/components/common/modal'
+import Modal from 'components/common/modal'
 import PropTypes from 'prop-types'
 import { translate } from 'react-i18next'
 import './warningModal.css'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { closeWarningModal } from 'src/components/modals/warningModal/logic/warningModalActions'
+import { closeWarningModal } from 'components/modals/warningModal/logic/warningModalActions'
 class WarningModal extends Component {
   closeWarningModal = () => {
     const { closeWarningModal } = this.props

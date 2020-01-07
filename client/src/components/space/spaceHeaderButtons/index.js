@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { translate } from 'react-i18next'
-import DropdownMenu from 'src/components/common/dropdownMenu'
-import WatchModal from 'src/components/modals/watchModal'
+import DropdownMenu from 'components/common/dropdownMenu'
+import WatchModal from 'components/modals/watchModal'
 
 import './spaceHeaderButtons.css'
 

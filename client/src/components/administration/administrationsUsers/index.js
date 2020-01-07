@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import InviteUsers from './inviteUsers'
-import Input from 'src/components/common/input'
-import PeopleBody from 'src/components/dashboard/peopleBody'
+import Input from 'components/common/input'
+import PeopleBody from 'components/dashboard/peopleBody'
 import { translate } from 'react-i18next'
 import PropTypes from 'prop-types'
 

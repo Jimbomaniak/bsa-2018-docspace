@@ -1,6 +1,6 @@
 import { takeEvery, put } from 'redux-saga/effects'
-import pageService from 'src/services/pageService'
-import spaceService from 'src/services/spaceService'
+import pageService from 'services/pageService'
+import spaceService from 'services/spaceService'
 import * as actionTypes from './watcherActionType'
 import * as actions from './watcherAction'
 

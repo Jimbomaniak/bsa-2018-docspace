@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './splashScreen.css'
-import logoInCircle from 'src/resources/icons/whitelogocircle.png'
+import logoInCircle from 'resources/icons/whitelogocircle.png'
 
 class SplashScreen extends Component {
   constructor (props) {

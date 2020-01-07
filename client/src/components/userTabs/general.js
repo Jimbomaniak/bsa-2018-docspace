@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import Button from '../../components/common/button'
-import Input from 'src/components/common/input'
-import Errors from 'src/components/common/error'
+import Input from 'components/common/input'
+import Errors from 'components/common/error'
 import { translate } from 'react-i18next'
-import Select from 'src/components/common/select'
+import Select from 'components/common/select'
 export class ProfileFields extends Component {
   constructor (props) {
     super(props)

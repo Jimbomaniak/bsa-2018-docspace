@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import { translate } from 'react-i18next'
 import Categories from './categories'
 import './editSpaceDetailsForm.css'
-import IconColorPicker from 'src/components/iconColorPicker'
-import {lightColors} from 'src/components/iconColorPicker/defaultColors'
-import Select from 'src/components/common/select'
+import IconColorPicker from 'components/iconColorPicker'
+import {lightColors} from 'components/iconColorPicker/defaultColors'
+import Select from 'components/common/select'
 class EditSpaceDetailsForm extends Component {
   constructor (props) {
     super(props)

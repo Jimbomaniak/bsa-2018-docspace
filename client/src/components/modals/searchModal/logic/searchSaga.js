@@ -1,7 +1,7 @@
 import { takeEvery, put } from 'redux-saga/effects'
 import * as actionTypes from './searchActionType'
 import * as actions from './searchActions'
-import pageService from 'src/services/pageService'
+import pageService from 'services/pageService'
 
 function * getMatchingPages (action) {
   try {

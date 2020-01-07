@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Input from '../../components/common/input'
 import Button from '../../components/common/button'
-import Errors from 'src/components/common/error'
+import Errors from 'components/common/error'
 import { translate } from 'react-i18next'
 
 export class PrivateFields extends Component {

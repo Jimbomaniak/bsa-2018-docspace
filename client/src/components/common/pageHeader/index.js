@@ -1,5 +1,5 @@
 import React, {PureComponent} from 'react'
-import SpaceHeaderButtons from 'src/components/space/spaceHeaderButtons'
+import SpaceHeaderButtons from 'components/space/spaceHeaderButtons'
 import PropTypes from 'prop-types'
 import { NavLink } from 'react-router-dom'
 

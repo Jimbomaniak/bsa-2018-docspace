@@ -1,6 +1,6 @@
 import React from 'react'
 import { translate } from 'react-i18next'
-import SpaceHeaderButtons from 'src/components/space/spaceHeaderButtons'
+import SpaceHeaderButtons from 'components/space/spaceHeaderButtons'
 import PropTypes from 'prop-types'
 
 import './spaceOverviewHeader.css'

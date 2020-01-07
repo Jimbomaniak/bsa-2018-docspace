@@ -1,8 +1,8 @@
 import * as actionTypes from './spaceActionTypes'
-import { UPDATE_PAGE_SUCCESS, DELETE_PAGE_SUCCESS } from 'src/components/page/logic/pageActionTypes'
-import { REFRESH_AUTH_USER_PERMISSIONS } from 'src/components/space/spaceSettings/permissions/logic/permissionsActionsTypes'
+import { UPDATE_PAGE_SUCCESS, DELETE_PAGE_SUCCESS } from 'components/page/logic/pageActionTypes'
+import { REFRESH_AUTH_USER_PERMISSIONS } from 'components/space/spaceSettings/permissions/logic/permissionsActionsTypes'
 import { combineReducers } from 'redux'
-import * as watcherTypes from 'src/components/page/watcherLogic/watcherActionType'
+import * as watcherTypes from 'components/page/watcherLogic/watcherActionType'
 
 const initialState = {
   all: [],

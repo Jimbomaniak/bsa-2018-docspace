@@ -1,10 +1,10 @@
 
-import emptyFolderImg from 'src/resources/icons/empty-folder-alt.png'
-import teamImg from 'src/resources/icons/theteam.png'
-import documentsImg from 'src/resources/icons/documents2.png'
-import knowledgeImg from 'src/resources/icons/brain.png'
+import emptyFolderImg from 'resources/icons/empty-folder-alt.png'
+import teamImg from 'resources/icons/theteam.png'
+import documentsImg from 'resources/icons/documents2.png'
+import knowledgeImg from 'resources/icons/brain.png'
 import templatesNames from './templatesNames'
-import {getT} from 'src/config/i18n'
+import {getT} from 'config/i18n'
 
 const t = getT()
 

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Modal from 'src/components/common/modal'
+import Modal from 'components/common/modal'
 import WizardModalBody from './wizardModalBody'
 import SpaceFatcory from '../logic/spaceFactory'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { createSpaceRequest } from 'src/components/space/spaceContainer/logic/spaceActions'
+import { createSpaceRequest } from 'components/space/spaceContainer/logic/spaceActions'
 import { translate } from 'react-i18next'
 import { withRouter } from 'react-router-dom'
 // TODO : implement form validation

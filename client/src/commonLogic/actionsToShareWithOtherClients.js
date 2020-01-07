@@ -1,8 +1,8 @@
-import { UPDATE_SPACE_SUCCESS } from 'src/components/space/spaceContainer/logic/spaceActionTypes'
-import { UPDATE_PAGE_SUCCESS } from 'src/components/page/logic/pageActionTypes'
-import { UPDATE_SPACE_PERMISSIONS_SUCCESS } from 'src/components/space/spaceSettings/permissions/logic/permissionsActionsTypes'
+import { UPDATE_SPACE_SUCCESS } from 'components/space/spaceContainer/logic/spaceActionTypes'
+import { UPDATE_PAGE_SUCCESS } from 'components/page/logic/pageActionTypes'
+import { UPDATE_SPACE_PERMISSIONS_SUCCESS } from 'components/space/spaceSettings/permissions/logic/permissionsActionsTypes'
 import { CREATE_COMMENT_SUCCESS, EDIT_COMMENT_SUCCESS,
-  DELETE_COMMENT_SUCCESS } from 'src/components/page/commentsLogic/commentsActionTypes'
+  DELETE_COMMENT_SUCCESS } from 'components/page/commentsLogic/commentsActionTypes'
 
 const actionsToShare = [
   UPDATE_SPACE_SUCCESS,

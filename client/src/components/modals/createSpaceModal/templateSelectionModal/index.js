@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import Modal from 'src/components/common/modal'
-import TemplateList from 'src/components/templateList'
+import Modal from 'components/common/modal'
+import TemplateList from 'components/templateList'
 import PropTypes from 'prop-types'
 
 export default class TemplateSelectionModal extends Component {

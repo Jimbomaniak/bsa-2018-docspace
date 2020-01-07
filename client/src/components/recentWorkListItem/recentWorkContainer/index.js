@@ -1,5 +1,5 @@
 import React from 'react'
-import RecentWorkListItem from 'src/components/recentWorkListItem'
+import RecentWorkListItem from 'components/recentWorkListItem'
 import getRightProps from '../helperRecentWork'
 
 const RecentWorkListContainer = ({userHistory}) => {

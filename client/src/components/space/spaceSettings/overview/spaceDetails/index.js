@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { translate } from 'react-i18next'
 import { Link } from 'react-router-dom'
-import {lightColors} from 'src/components/iconColorPicker/defaultColors'
+import {lightColors} from 'components/iconColorPicker/defaultColors'
 import './spaceDetails.css'
 import { MoonLoader } from 'react-spinners'
 
@@ -105,7 +105,7 @@ SpaceDetails.propTypes = {
   t: PropTypes.func.isRequired,
   space: PropTypes.shape({
     _id: PropTypes.string,
-    name: PropTypes.stringgi
+    name: PropTypes.string
   }),
   allUsers: PropTypes.array
 }

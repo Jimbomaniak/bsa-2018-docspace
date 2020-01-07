@@ -1,7 +1,7 @@
 import { takeEvery, put } from 'redux-saga/effects'
 import * as actionTypes from './allUsersActionType'
 import * as actions from './allUsersActions'
-import {userService} from 'src/services/userService'
+import {userService} from 'services/userService'
 
 function * getAllUsers () {
   try {
